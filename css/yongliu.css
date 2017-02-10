@@ -1,0 +1,346 @@
+div,body,ul,li,p{
+	font-family:"微软雅黑";
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+/*第1页start*/
+body#one-1{
+  background:url(../img/one.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+  overflow:hidden;
+}
+body#one-1:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/one.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+#one-1 a{
+  display:block;
+  width:100%;
+  height:1136px;
+}
+
+/*第1页end*/
+
+/*第2页start*/
+body#two-1{
+  background:url(../img/two.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+  overflow:hidden;
+}
+body#two-1:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/two.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+.girl-1{
+  width:10rem;
+  margin-top:0.28rem;
+}
+.girl-1 a{
+  display:block;
+  border:none;
+  width:10rem;
+}
+.girl-1 a img{  
+  width:10rem;
+}
+
+.two-text{
+  font-size:0.19rem;
+  text-indent:2em;
+  padding-left:1.1rem;
+  padding-right:1.1rem;
+  line-height:0.46rem;
+}
+.book-list{
+  padding-top:0.28rem;
+  padding-left:1.31rem;
+}
+.book-list li a{
+  display:block;
+  width:2.234rem;
+  height:3.25rem;
+  float:left;
+  margin-right:0.31rem;
+}
+.book-list li a img{  
+  width:2.234rem;
+  height:3.25rem;
+}
+
+
+
+/*第2页end*/
+
+
+body#building{
+	background:url(../img/1.jpg) top center no-repeat fixed;
+	background-size:cover;
+	background-attachment:fixed;
+}
+body#waters{
+  background:url(../img/2.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+}
+body#lotus{
+  background:url(../img/3.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+}
+body#ship{
+  background:url(../img/4.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+}
+body#fisherman{
+  background:url(../img/5.jpg) top center no-repeat fixed;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+
+body#building:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/1.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+body#waters:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/2.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+body#lotus:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/3.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+body#ship:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/4.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+body#fisherman:before{
+  content:'';
+  position:fixed;
+  z-index:-1;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:url(../img/5.jpg) center 0 no-repeat;
+  background-size:cover;
+}
+
+/* body:before {
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/1.png) center 0 no-repeat;
+  background-size: cover;
+} */
+
+/*目录  start*/
+.list{
+	margin-top:1.97rem;
+	margin-bottom:1.2rem;
+}
+.list li{
+	width:8.29rem;
+	border:1px dashed #ccc;
+	padding-top:0.3rem;
+    margin:0.1rem auto;
+}
+.list li a{
+  display:block;
+  min-height:1.5rem;
+  font-size:0.47rem;
+  color:#000;
+  text-decoration:none;
+}
+.list li a span{
+	text-align:center;
+	display:block;
+    margin:0 0.16rem;
+}
+.list li a span em{
+  float:left;
+  font-style:normal;
+}
+.list li a span:last-child{
+	font-size:0.4rem;
+	margin-top:0.3rem;
+}
+
+/*目录  end*/
+
+.titl{
+	font-size:0.8rem;
+	min-height:1.3rem;
+  font-weight:bold;
+  line-height:1.2rem;
+  margin:1.1rem;
+  text-align:center;
+ }
+ .zz{
+ 	font-size:0.48rem;
+ 	text-align:center;
+ 	height:1.33rem;
+ 	line-height:1.8rem;
+ 	color:#000;
+  font-weight:600;
+ }
+ .cont{
+    min-height:0.53rem;
+ 	font-size:0.55rem;
+ 	text-align:center;
+ 	margin:0.5rem 1rem 0.86rem 1.46rem;
+ }
+ .fanyi{
+ 	margin-top:1.37rem;
+ 	display:none;
+ }
+
+ .fanyi li{
+ 	min-height:0.53rem;
+ 	font-size:0.47rem;
+ 	text-align:left;
+ 	margin:0 1rem 0.86rem 1.46rem;
+ }
+ .active{
+ 	color:#7200ff;
+ }
+ 
+ /*外链 start*/
+ .box{
+  position:relative;
+ }
+
+.outhref a:first-child{
+  position:fixed;
+  top:7.22rem;
+  left:0rem;
+ }
+.outhref a:last-child{
+  position:fixed;
+  top:8.22rem;
+  left:0rem;
+ }
+ /*外链 end*/
+ 
+ .test{
+ 	margin-right:1rem;
+ 	float:right;
+ 	font-size:0.45rem;
+ 	text-decoration:none;
+ }
+
+ /*填空 start*/
+ .tiankong li{ 	
+  min-height:0.53rem;
+ 	font-size:0.45rem;
+ 	text-align:left;
+  margin:0.5rem 0.8rem 0.86rem 1.6rem;
+ }
+  .tiankong .titl{
+	font-size:0.8rem;
+	min-height:1rem;
+  line-height:1.2rem;
+  text-align:center;
+  margin:1.1rem;
+  }
+  .tiankong .zz{
+ 	font-size:0.48rem;
+ 	text-align:center;
+ 	height:1.33rem;
+ 	line-height:1.8rem;
+ 	color:#000;
+ 	margin:0;
+  font-weight:600;
+ }
+ .blank{
+  display:inline-block;
+  margin-left:0.2rem;
+  min-width:2rem;
+  min-height:0.53rem;
+ 	border-bottom:1px solid #333;
+ }
+ .aa .bb{
+  text-align:left;
+  display:block;
+ }
+.aa .cc{
+  text-align:left;
+  display:block;
+  word-break:break-all;
+  line-height:0.73rem;
+  margin:0;
+  }
+
+.aa .cc em{
+  font-style:normal;
+}
+
+ .blank span{
+ 	display:none;
+ }
+
+ .aa{
+  min-height:0.53rem;
+  font-size:0.45rem;
+  text-align:left;
+  margin:0.5rem 0rem 0.86rem 0.46rem;
+ }
+
+
+ 
+
+
+
+
+
+
