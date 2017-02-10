@@ -32,13 +32,13 @@ a#one-1{
 /*第1页end*/
 
 /*第2页start*/
-body#two-1{
+#two-1{
   background:url(../img/two.jpg) top center no-repeat fixed;
   background-size:cover;
   background-attachment:fixed;
   overflow:hidden;
 }
-body#two-1:before{
+#two-1:before{
   content:'';
   position:fixed;
   z-index:-1;
