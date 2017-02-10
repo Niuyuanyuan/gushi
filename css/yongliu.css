@@ -5,27 +5,28 @@ div,body,ul,li,p{
 	list-style:none;
 }
 /*第1页start*/
-body#one-1{
+a#one-1{
+  display:block;
+  width:100%;
+  height:17.75rem;
+}
+
+#one-1{
   background:url(../img/one.jpg) top center no-repeat fixed;
   background-size:cover;
   background-attachment:fixed;
-  overflow:hidden;
+  /*overflow:hidden;*/
 }
-body#one-1:before{
+#one-1:before{
   content:'';
   position:fixed;
   z-index:-1;
   top:0;
-  bottom:0;
+  /*bottom:0;*/
   left:0;
   right:0;
   background:url(../img/one.jpg) center 0 no-repeat;
   background-size:cover;
-}
-#one-1 a{
-  display:block;
-  width:100%;
-  min-height:17.75rem;
 }
 
 /*第1页end*/
